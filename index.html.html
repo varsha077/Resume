@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+html
+{
+	font-size:100%;
+}
+
+body
+{
+	-webkit-font-smoothing:antialiased;
+	color:#333332;
+	font-family:Lora, serif;
+	font-size:18px;
+	font-weight:400;
+	line-height:1.4;
+	text-rendering:optimizeLegibility;
+}
+
+.skill-set li:hover
+{
+	background:#3498db;
+}
+
+h1
+{
+	color:rgba(0,0,0,.75);
+}
+
+.wrapper
+{
+	height:100%;
+}
+
+.left
+{
+	background-color:#808080;
+	border-right:1px solid rgba(0,0,0,.05);
+	float:right;
+	height:100%;
+	margin-left:-1px;
+	min-width:256px;
+	position:fixed;
+	width:33.33%;
+  
+}
+
+.right
+{
+	float:right;
+	height:100%;
+	position:relative;
+	width:66.66%;
+}
+
+
+.name-hero
+{
+	background:rgba(0,0,0,.001);
+	bottom:0;
+	height:290px;
+	left:0;
+	margin:auto;
+	position:absolute;
+	right:0;
+	top:0;
+	width:85%;
+}
+
+.me-img {
+  background: url(https://media-exp1.licdn.com/dms/image/C4E03AQGnLq_IB_mf8Q/profile-displayphoto-shrink_400_400/0/1631022739752?e=1648684800&v=beta&t=eICUjHeH_g9GQEItmEMK1j2gCADwqfjrlccSD_5za58) no-repeat center center;
+  background-size: cover; /* Use 'cover' to ensure the image covers the entire div */
+  border-radius: 50%; /* Use '50%' for a perfect circle */
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+  width: 150px;
+  overflow: hidden; /* Ensure the image stays within the circular border */
+}
+
+/* Add a class to make the image responsive */
+.me-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block; /* Remove extra spacing below the image */
+}
+
+
+.name-hero h1
+{
+	font-family:Open Sans, sans-serif;
+	font-size:1.5em;
+	text-align:center;
+}
+
+.name-hero h1 em
+{
+	color:rgba(0,0,0,.3);
+	font-style:normal;
+	font-weight:700;
+}
+
+.name-hero p
+{
+	color:rgba(0,0,0,.75);
+	font-size:.75em;
+	line-height:1.5;
+	margin:0 8px 0 0;
+	text-align:center;
+}
+
+.name-hero .name-text
+{
+	margin:0 auto;
+	width:85%;
+}
+
+.inner
+{
+	margin:0 auto;
+	max-width:975px;
+	padding:3em;
+}
+
+.inner h1
+{
+	font-size:1.75em;
+}
+
+.inner p
+{
+	color:rgba(0,0,0,.5);
+}
+
+.inner p em
+{
+	color:rgba(0,0,0,1);
+	font-style:normal;
+}
+
+.inner section
+{
+	margin:100px auto;
+}
+
+ul
+{
+	list-style-type:none;
+	margin-top:-10px;
+	max-width:570px;
+	padding:0;
+}
+
+.skill-set li
+{
+	background:rgba(0,0,0,.75);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
+
+@media screen and (max-width: 48em) {
+	.right,.left
+	{
+		float:none;
+    position:relative !important;
+		width:100%;
+    min-height:500px;
+	}
+  .handmade {
+  text-align:center !important;
+  margin-top:0px !important;
+}
+
+@media screen and (max-width: 75em) {
+    body
+{ font-size:16px;}
+}
+
+@media screen and (max-width: 60em) {
+    body
+{ font-size:14px;}
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+}
+.from-control{
+    height: 40px;
+}
+</style>
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Open+Sans:300,400,500,700|Waiting+for+the+Sunrise|Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+    <div class="wrapper clearfix">
+  <div class="left">
+    <div class="name-hero">
+      <div class="me-img">
+        <img src="C:\Users\Varsha\OneDrive\Desktop\Varsha7\v.jpg" alt="Varsha's Image">
+      </div>
+      <div class="name-text">
+        <h1>Varsha<em>Priya</em></h1>
+        <p>Jamshedpur, Jharkhand</p>
+        <p>varshapriya708@gmail.com</p>
+        <p>7970889577</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="right">
+
+    <div class="inner">
+        <section>
+        <h1>A little about me</h1>
+        <p>I'm Varsha Priya, pursuing my bachelor's degree in Forensic Science from Jain University, Bangalore. My hometown is Jamshedpur where I completed my schooling from J.H. Tarapore School. Also, I wanna pursue my Masters in Cyber Forensics.</p>
+      </section>
+      <section>
+        <h1>Education</h1>
+        <p>2024:- <em>BSC Forensic Science</em></p>
+        <p>Jain University, Bangalore</p>
+        <p>2021:- <em>Intermediate (ISC)</em></p>
+        <p>J.H.Tarapore School, Jamshedpur.</p>
+        <p>2019:- <em>Matriculation (ICSC)</em></p>
+        <p>J.H.Tarapore School, Jamshedpur.</p>
+      </section>
+      <section>
+        <h1>Skills</h1>
+        <ul class="skill-set">
+          <li>Communication</li>
+          <li>Creativity</li>
+          <li>Computer Skills</li>
+          <li>Problem Solving</li>
+        </ul>
+      </section>
+      
+      <section>
+        <h1>Personal Interests</h1>
+        <ul class="skill-set">
+          <li>Sketching</li>
+          <li>Sports</li>
+          <li>Playing different Musical Instruments</li>
+        </ul>
+      </section>
+      <section>
+        <h1>Contact me</h1>
+        <form  method="post" action="" name="response">
+                <div class="row">
+                    <div class="col-lg-6 mb-35 col-md-12">
+                        <input class="from-control" type="text" id="name" name="name" placeholder="Name" required="">
+                    </div><br>
+                    <div class="col-lg-6 mb-35 col-md-12">
+                        <input class="from-control" type="text" id="email" name="email" placeholder="Email" required="">
+                    </div><br> 
+                    <div class="col-lg-6 mb-35 col-md-12">
+                        <input class="from-control" type="number" id="phone" name="phone" placeholder="Phone"pattern="[6-9]{1}[0-9]{9}" required="">
+                    </div><br>  
+                    <div class="col-lg-6 mb-35 col-md-12">
+                        <input class="from-control" type="text" id="subject" name="message" placeholder="message" required="">
+                    </div><br>
+                    </div>
+                     <div class="col-lg-6 mb-35 col-md-12">
+                <div class="form-group mb-0">
+                    <input class="btn-send"  type="submit" value="Submit Now"name="submit">
+                </div>  
+                </div> 
+                </div>
+
+            </form>
+      </section>
+    </div>
+
+  </div>
+
+</div>
+</body>
+
+<script>
+			const scriptURL = 'https://script.google.com/macros/s/AKfycbwVr37_1tGxzd8x-Pqb9o5ZmNTPo6c1d8cgZBnA781e_PeSoauCDN0eG-V3cP13K2By/exec'
+			const form = document.forms['formName']
+		  
+			form.addEventListener('submit', e => {
+			  e.preventDefault()
+			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+				.then(response => alert("Thank you! your form is submitted successfully." ))
+				.then(() => {  window.location.reload(); })
+				.catch(error => console.error('Error!', error.message))
+			})
+		  </script>
+</html>
